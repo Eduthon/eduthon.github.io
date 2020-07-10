@@ -1,0 +1,83 @@
+.sec1{
+    width:100%;
+    height: fit-content;
+    background-color: #1c1d1d;
+    margin-top: -5px;
+    }
+.faq {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    text-align: center;
+}    
+.faq span{
+    color: #0099ff;
+    ;
+    font-size: 50px;
+}
+.spirit{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.anim{
+    width: 300px;
+}
+.code{
+    display: flex;
+	font-family:Montserrat;
+	color: #DADADA;
+	font-size: 20px;
+	justify-content: center;
+	font-weight: 600;
+}
+.un img{ 
+    
+    
+    padding-top:60px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 15px;
+
+}
+.un{
+    margin-top: 60px;
+    width:50vw;
+    text-align: center;
+}
+.un p{
+    font-family:Montserrat;
+	color: #DADADA;
+	font-size: 16px;
+	text-align: center;
+    font-weight: 600;
+    text-align: center;   
+}
+.faqs{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.q{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    font-family:Montserrat;
+	color: #0099ff;
+    font-size: 20px;
+    border-top:1px solid rgb(82, 79, 79) ;
+    border-bottom:1px solid rgb(82, 79, 79);
+    justify-content: center;
+    padding:20px 15px;
+    font-weight: 600;
+}
+.ans{
+    font-weight: 400;
+    color: #DADADA;
+    font-size: 18px;
+}
