@@ -83,9 +83,9 @@
     font-size: 18px;
 }
 .p{
-    max-width: 300px;
+    width: 300px;
     margin: 50px 50px;
-    box-shadow: 0px 0px 20px 0 rgba(84, 120, 240, 0.13);
+    box-shadow: 5px 5px 20px 0 rgba(8, 9, 10, 0.295);
 }
 .q{
     margin-top: 100px;
