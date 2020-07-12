@@ -14,18 +14,18 @@
     visibility: hidden;
 }
 .aa{
-    height: 65.725px;;
+    /* height: 65.725px;; */
 }
 .aaa-logo{
 	margin-left: 12vw;
 	margin-top: 14.4px;
-	width: 47.625px;
-	height:44.525px;
+	width: 71.4375px;
+	/* height:44.525px; */
 	/* border: 1px solid red; */
 }
 .b{
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .iso {
     display:none;
