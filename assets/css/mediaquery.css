@@ -2,6 +2,7 @@
 .navigation{
     visibility: visible !important;
 }
+
 .hero{
     width: max-content;
     margin: 0 auto;
@@ -29,50 +30,49 @@
 .name{
     font-weight: 400;
     margin: 0 auto;
-	font-size: 60px;
+	font-size: 65px;
 }
 .location{
     font-weight: 400;
     margin-left: 0 !important;
-    font-size: 10px;
+    font-size: 15px;
 }
 .venue{
     /* flex-direction: column; */
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .start{
-	font-size: 9px;
+	font-size: 12px;
 }
 .start{
-	margin-top:20px;
+	margin-top:25px;
 	margin-left: 0px;
 
 }
 .box{
 	border: 1px solid white;
-	width:20px;
+	width:30px;
 	border-radius: 5px;;
-	height:20px;
+	height:30px;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 18px;
 	margin:0 2px;
 	
 }
 .time{
-	margin-top:20px ;
+	margin-top:25px ;
 	margin-left: 0px;
 	display: inline-block;
 	margin-right: 10px;
-	
 }
 .reg{
-    width: 220px;
+    width: 230px;
     height: 40px;
     border-radius: 5px;
     font-weight: 400;
     font-size: 15px;
-    margin-top:30px !important;
+    margin-top:40px !important;
     margin: 0 auto;
     margin-bottom: 0px;
 }
@@ -87,7 +87,7 @@
 }
 .det{
     width: 100vw;
-    margin-top: 45px !important;
+    margin-top: 55px !important;
     margin: 0 auto;
 }
 .ques{
@@ -247,6 +247,14 @@
         margin-top:25px !important;
         margin: 0 auto;
         margin-bottom: 0px;
+    }
+    .location{
+        font-weight: 400;
+        margin-left: 0 !important;
+        font-size: 12px;
+    }
+    .start{
+        font-size: 10px;
     }
 
 }
