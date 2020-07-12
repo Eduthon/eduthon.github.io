@@ -16,15 +16,14 @@
 .sec3{
     margin-top: -5px;
     background-color: #0C0B0C;
-    height: 100vh;
 }
 .sponsor{
     font-family:Montserrat;
 	color: #DADADA;
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 90px;
+    font-weight: 700;
     text-align: center;
-    height: 100vh;
+    margin-bottom: 100px;
 }
 footer{
     background-color: #15171a;
@@ -69,4 +68,18 @@ footer{
     width: 60%;
     justify-content: space-evenly;
     margin: 0 auto ;
+}
+.icons i{
+    overflow-y: hidden;
+}
+.rank{
+    font-family:Montserrat;
+    color: #2243ff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+.image{
+    width:60%;
+    margin: 50px auto;
 }
