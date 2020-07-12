@@ -17,7 +17,7 @@ img{
 	margin-left: 7vw;
 	margin-top: 28.6px;
 	width: 95.25px;
-	height:89.05px;
+	/* height:89.05px; */
 	/* border: 1px solid red; */
 }
 .aab{
@@ -60,6 +60,10 @@ border: 2px solid #FFFFFF;
 	font-family: 'Montserrat';
 	margin-bottom: 40px;
 	background: #CFC2C21F 0% 0% no-repeat padding-box;
+}
+.links a{
+	text-decoration: none;
+	color: #DADADA;
 }
 .b{
 	display: flex;
