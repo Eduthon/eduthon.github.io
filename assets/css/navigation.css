@@ -1,6 +1,6 @@
 .navigation{
-    background-color: rgb(53, 20, 201);
-    height: 40px;
+    background-color: rgb(49, 9, 224);
+    height: 50px;
     position: fixed !important;
      visibility: hidden;
     bottom: 0px;
@@ -13,7 +13,7 @@
     list-style: none;
 }
 .navigation li{
-    margin-top:5px;
+    margin-top:10px;
 }
 .nav{
     width:30px;
