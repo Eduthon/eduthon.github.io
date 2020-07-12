@@ -1,0 +1,27 @@
+@media only screen and (max-width: 500px) {
+.navigation{
+    visibility: visible !important;
+}
+.links{
+    visibility: hidden;
+}
+.aa{
+    height: 65.725px;;
+}
+.aaa-logo{
+	margin-left: 7vw;
+	margin-top: 14.4px;
+	width: 47.625px;
+	height:44.525px;
+	/* border: 1px solid red; */
+}
+.name{
+	font-weight: 200;
+	font-size: 120px;
+	/* margin-right:10px; */
+	/* margin-left: -12px; */
+	/* font-family: 'Aleo', serif; */
+	color: #dddfeb;
+	/* font-family: 'Montserrat'; */
+}
+}

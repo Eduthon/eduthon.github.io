@@ -1,0 +1,21 @@
+.navigation{
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    position: fixed !important;
+     visibility: hidden;
+    bottom: 0px;
+    width: 100%;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navigation li{
+    margin-top:5px;
+}
+.nav{
+    width:30px;
+    color: white;
+}
