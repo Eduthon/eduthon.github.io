@@ -2,6 +2,10 @@
 .navigation{
     visibility: visible !important;
 }
+.hero{
+    width: max-content;
+    margin: 0 auto;
+}
 .links{
     visibility: hidden;
 }
@@ -9,19 +13,224 @@
     height: 65.725px;;
 }
 .aaa-logo{
-	margin-left: 7vw;
+	margin-left: 15vw;
 	margin-top: 14.4px;
 	width: 47.625px;
 	height:44.525px;
 	/* border: 1px solid red; */
 }
+.b{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.iso {
+    display:none;
+}
 .name{
-	font-weight: 200;
-	font-size: 120px;
-	/* margin-right:10px; */
-	/* margin-left: -12px; */
-	/* font-family: 'Aleo', serif; */
-	color: #dddfeb;
-	/* font-family: 'Montserrat'; */
+    font-weight: 400;
+    margin: 0 auto;
+	font-size: 45px;
+}
+.location{
+    font-weight: 400;
+    margin-left: 0 !important;
+    font-size: 10px;
+}
+.venue{
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.start{
+	font-size: 9px;
+}
+.start{
+	margin-top:10px;
+	margin-left: 0px;
+
+}
+.box{
+	border: 1px solid white;
+	width:20px;
+	border-radius: 5px;;
+	height:20px;
+	font-weight: 300;
+	font-size: 15px;
+	margin:0 2px;
+	
+}
+.time{
+	margin-top:10px ;
+	margin-left: 0px;
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+
+.reg{
+    width: 180px;
+    height: 35px;
+	border-radius: 4px;
+	font-weight: 400;
+	font-size: 15px;
+    margin-top:15px !important;
+    margin: 0 auto;
+	margin-bottom: 0px;
+}
+.hour1{
+	font-size: 8px;
+	margin-top: 2px;	
+}
+.run{
+    display: flex;
+    /* margin-left: 33px; */
+    justify-content: flex-start
+}
+.det{
+    width: 100vw;
+    margin-top: 35px !important;
+    margin: 0 auto;
+}
+.ques{
+    font-size: 18px;
+    margin-bottom: 5px !important;
+}
+.ans{
+    margin-top: 5px !important;
+    padding:0 30px;
+}
+.ans p{
+	display: flex;
+	font-family:Montserrat;
+	color: #DADADA;
+    font-size: 11px;
+    text-align: center;
+	justify-content: center;
+	font-weight: 300;
+}
+.anim{
+    width: 150px !important;
+}
+.code{
+    font-size: 10px !important;
+   
+}
+.spirit{
+    margin-top: 30px !important;
+    margin-bottom: 20px;
+}
+.faqs{
+    display: flex;
+    flex-direction: column-reverse !important;
+    padding-bottom: 40px;
+}
+.qu{
+    margin-top: 10px !important;
+    display: flex;
+    flex-direction: column;
+}
+.faqs{
+    display: flex;
+    flex-direction: row;
+}
+.block{
+    width: 80%;
+    margin-left: 10%;
+    font-family:Montserrat;
+	color: #0099ff;
+    font-size: 12px !important;
+    border-top:1px solid rgb(82, 79, 79) ;
+    border-bottom:1px solid rgb(82, 79, 79);
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+}
+.ans{
+    font-weight: 400;
+    color: #DADADA;
+    font-size: 12px !important;
+}
+.un{
+    margin-top: 20px !important;
+    width:90vw !important;
+    text-align: center;
+}
+.un p{
+    font-family:Montserrat;
+	color: #DADADA;
+	font-size: 10px !important;
+	text-align: center;
+    font-weight: 600;
+    margin-top:0 !important;
+    text-align: center;   
+}
+.un img{ 
+    padding-top:10px !important;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5px !important;
+
+}
+.faqs{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 10px !important;
+}
+.prize{
+    font-size: 25px !important;
+    padding-top: 40px !important;
+}
+.p{
+    width: 300px;
+    margin: 20px 35px !important;
+    box-shadow: 5px 5px 20px 0 rgba(8, 9, 10, 0.295);
+}
+.q{
+    margin-top: 30px !important;
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+.sponsor{
+    font-family:Montserrat;
+    color: #DADADA;
+    padding-top: 20px;
+    font-size: 30px !important;
+    font-weight: 500;
+}
+.fot{
+    font-family:Montserrat;
+	color: #DADADA;
+    font-weight: 500;
+    width:70vw;
+    margin:0 auto ;
+    margin-top: 60px !important;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.follow{
+    width: 100% !important;
+    font-family:Montserrat;
+	color: #DADADA;
+    font-size: 15px !important;
+    padding-top:20px !important;
+    padding-bottom:20px !important;
+    margin-top: 0px !important ;
+    font-weight: 600;
+    text-align: center;
+}
+.right{
+    font-family:Montserrat;
+    color: #DADADA;
+    margin-top: 20px !important;
+    font-size: 9px !important;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 50px !important;
 }
 }

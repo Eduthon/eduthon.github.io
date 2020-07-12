@@ -4,6 +4,9 @@
 	/* border: 2px solid red; */
 	height: 100%;
 }
+.iso2{
+	display: none;
+}
 .hover 
 {
 	animation: hover 3s ease-in-out infinite;

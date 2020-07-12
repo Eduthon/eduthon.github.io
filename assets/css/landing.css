@@ -64,16 +64,15 @@ border: 2px solid #FFFFFF;
 	display: flex;
 	margin-top: 60px;
 	justify-content: flex-start;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 .hero{
-	/* width:46.5vw; */
+	width:46.5vw;
 	margin-left: 7vw;
-	/* border: 2px solid red; */
+	/* border: 2px solid red;	 */
 }
 .hack{
 	display:flex;
-	
 }
 .name{
 	font-weight: 200;
