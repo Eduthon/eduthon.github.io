@@ -18,9 +18,9 @@
     background-color: #0C0B0C;
 }
 .sponsor{
-    font-family:Montserrat;
-	color: #DADADA;
-    font-size: 90px;
+    font-family:Cera pro;
+	color: white;
+    font-size: 110px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 100px;
@@ -74,12 +74,12 @@ footer{
 }
 .rank{
     font-family:Montserrat;
-    color: #2243ff;
-    font-size: 60px;
+    color: #3453ff;
+    font-size: 50px;
     font-weight: 700;
     text-align: center;
 }
 .image{
-    width:60%;
+    width:40%;
     margin: 50px auto;
 }

@@ -62,23 +62,28 @@
 .qu{
     margin-top: 90px;
     display: flex;
+    width: 45%;
+    margin-right: 5%;
     flex-direction: column;
 }
 
 .block{
     font-family:Montserrat;
-	color: #0099ff;
+    color: #0099ff;
     font-size: 20px;
     border-top:1px solid rgb(82, 79, 79) ;
     border-bottom:1px solid rgb(82, 79, 79);
     justify-content: center;
-    padding:20px 15px;
+    padding:20px 20px;
+    padding-bottom: 0px !important;
     font-weight: 600;
 }
-.ans{
+.answer{
     font-weight: 400;
     color: #DADADA;
     font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .p{
     width: 300px;
