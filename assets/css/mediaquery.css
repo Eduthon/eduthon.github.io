@@ -268,12 +268,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 10% !important;
+    margin: 15px 10% !important;
 }
 .patimage img{
     width: 50px !important;
     margin: 0 20px !important;
-    /* height: 200px; */
+}
+.want p{
+ 
+    padding: 0 5% ;
+    font-size: 20px !important;
+}
+.bro a{
+    font-size: 10px !important;
 }
 }
 
