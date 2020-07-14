@@ -101,12 +101,11 @@
 }
 .ans p{
 	display: flex;
-	font-family:Montserrat;
-	color: #DADADA;
-    font-size: 11px;
+	color: #ffffff;
+    font-size: 12px;
     text-align: center;
 	justify-content: center;
-	font-weight: 300;
+	font-weight: 400;
 }
 .anim{
     width: 150px !important;
@@ -248,9 +247,9 @@
     margin: 20px auto !important;
 }
 .answer{
-    font-weight: 400;
+    font-weight: 600;
     color: #DADADA;
-    font-size: 11px !important;
+    font-size: 12px !important;
     padding-bottom: 20px;
     padding-top: 20px;
 }

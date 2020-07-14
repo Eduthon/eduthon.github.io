@@ -113,7 +113,7 @@ border: 2px solid #FFFFFF;
 	border-radius: 12px;;
 	height:50px;
 	font-weight: 300;
-	font-size: 40px;
+	font-size: 35px;
 	margin:0 5px;
 	vertical-align: middle;
 	color:white;
@@ -149,14 +149,17 @@ border: 2px solid #FFFFFF;
 }
 .det{
 	width:86vw;
+	font-family: Cera pro;
+
 	/* border: 2px red solid; */
 	margin: 0 auto;
 	margin-top: -110px;
+	margin-bottom: 50px !important;
 	
 }
 .ques{
 	display: flex;
-	font-family:Montserrat;
+	/* font-family:Montserrat; */
 	color: #ffffff;
 	font-size: 45px;
 	justify-content: center;
@@ -165,14 +168,15 @@ border: 2px solid #FFFFFF;
 }
 .ans{
 	margin-top: 30px;
+	padding: 0 15%;
 }
 .ans p{
 	display: flex;
-	font-family:Montserrat;
+	/* font-family:Montserrat; */
 	color: #DADADA;
 	font-size: 20px;
 	text-align: center;
 	justify-content: center;
-	font-weight: 300;
+	font-weight: 500;
 }
 
