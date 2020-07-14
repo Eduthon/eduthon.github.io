@@ -68,6 +68,7 @@ footer{
     width: 60%;
     justify-content: space-evenly;
     margin: 0 auto ;
+    overflow: visible;
 }
 .icons i{
     overflow-y: hidden;
