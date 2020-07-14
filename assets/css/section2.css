@@ -81,5 +81,6 @@ footer{
 }
 .image{
     width:40%;
+    max-width:600px;
     margin: 50px auto;
 }
