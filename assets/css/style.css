@@ -1,0 +1,76 @@
+.ques{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ans{
+    font-family: 'IBM Plex Serif', serif;
+}
+.links li a{
+    white-space: nowrap !important;
+    font-weight: 500;
+   
+}
+
+.links li:hover{
+    padding-bottom: 4px;
+    border-bottom: 2px solid #dadada;
+    
+}
+
+
+@media only screen and (min-width: 600px){
+
+.aa{
+    display: block !important;
+    width: 100%;
+    margin-top: -10px !important;
+}
+.aaa-logo{
+    float: left !important;
+    width: 22% !important;
+}
+
+.aaa-logo img{
+    height: 110px !important;
+    width: 110px !important;
+    
+}
+.aab{
+    float: right !important;
+    width: 50% !important;
+    min-width: 390px;
+    margin-right: 5vw !important;
+}
+.links li{
+    display: inline-block !important;
+    overflow: visible !important;
+}
+.reg{
+    margin-top: 30px !important;
+}
+
+
+.name{
+    font-size: 110px !important;
+}
+.b{
+    margin:0 !important;
+   max-height: 1400px !important;
+   height: 110vh;
+    
+}
+.hero{
+    height: 100%;
+}
+
+}
+
+.iso{
+    padding-right:40 ;
+    overflow: hidden !important;
+}
+
+@media only screen and (max-width: 680px) and (min-width:500px){
+    .b{
+        height: 130vh;
+    }
+}
