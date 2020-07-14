@@ -282,9 +282,19 @@
 .bro a{
     font-size: 10px !important;
 }
+.mobileiso{
+    visibility: visible !important;
+    height: 100% !important;
+    width:300px !important;
+    margin: -40px auto;
+}
 }
 
 @media only screen and (max-width: 300px) {
+    .mobileiso{
+        margin-left: -16px !important;
+        width: 250px !important;
+    }
     .name{
         font-size: 50px;
     }

@@ -72,3 +72,7 @@
     margin: 0 50px;
     /* height: 200px; */
 }
+.mobileiso{
+    visibility: hidden;
+    height: 0vh;
+}
