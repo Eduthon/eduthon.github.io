@@ -1,4 +1,4 @@
-var overlay= document.getElementById("preload");
+var matches = document.querySelectorAll("#preload")
 window.addEventListener('load',function(){
-    preload.style.display = 'none';
+    setTimeout(function(){ matches[0].style.display = 'none'; }, 3000);
 });
