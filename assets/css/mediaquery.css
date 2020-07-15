@@ -288,6 +288,10 @@
     margin: -40px auto;
     margin-top: -60px !important;
 }
+.hack img{
+    width: 80vw !important;
+    margin-top: 30px !important;
+}
 }
 
 @media only screen and (max-width: 300px) {
