@@ -67,7 +67,7 @@
     flex-direction: column;
 }
 
-.block{
+/* .block{
     font-family:Montserrat;
     color: #0099ff;
     font-size: 20px;
@@ -84,7 +84,7 @@
     font-size: 18px;
     padding-bottom: 20px;
     padding-top: 20px;
-}
+} */
 .p{
     width: 300px;
     margin: 50px 50px;

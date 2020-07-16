@@ -133,24 +133,29 @@
 .faqs{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
-.block{
-    width: 100% ;
-    margin-left: 0% !;
+
+.accordion {
     font-family:Montserrat;
-	color: #0099ff;
-    font-size: 12px !important;
-    border-top:1px solid rgb(82, 79, 79) ;
-    border-bottom:1px solid rgb(82, 79, 79);
+    font-size: 14px !important;
     justify-content: center;
-    text-align: center;
-    font-weight: 400;
-}
-.ans{
-    font-weight: 400;
-    color: #DADADA;
+    padding:10px 20px !important ;
+    font-weight: 600;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .panel {
     font-size: 12px !important;
-}
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 .un{
     margin-top: 20px !important;
     width:90vw !important;
