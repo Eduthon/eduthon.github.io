@@ -136,6 +136,10 @@
     margin-top: 20px;
 }
 
+.active, .accordion:hover {
+    background-color: transparent;
+  }
+
 .accordion {
     font-family:Montserrat;
     font-size: 14px !important;
