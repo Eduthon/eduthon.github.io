@@ -6,15 +6,16 @@
 
 
     <meta name="description" content="Eduthon website.">
-    <meta name="eduthon" content="Eduthon">
-    <meta name="eduthoniiitl" content="eduthoniiitl">
-    <meta name="eduthon iiitlucknow" content="eduthon iiitlucknow">
-    <meta name="IIIT Lucknow" content="IIIT Lucknow">
-    <meta name="iiitl lucknow hackathon" content="iiitl lucknow hackathon">
-    <meta name="hackathon eduthon iiitl" content="hackathon eduthon iiitl">
-    <meta name="eduthon lucknow" content="eduthon lucknow">
-    <meta name="eduthon website " content="eduthon website">
-    <meta name="lucknow eduthon" content="lucknow eduthon">
+    <meta name="keywords" content="Eduthon">
+    <meta name="keywords" content="eduthoniiitl">
+    <meta name="keywords" content="eduthon iiitlucknow">
+    <meta name="keywords" content="IIIT Lucknow">
+    <meta name="keywords" content="iiitl lucknow hackathon">
+    <meta name="keywords" content="hackathon eduthon iiitl">
+    <meta name="keywords" content="eduthon lucknow">
+    <meta name="keywords" content="eduthon website">
+    <meta name="keywords" content="lucknow eduthon">
+    <meta author="author" content="Narendra Singh">
     <link rel="shortcut icon" href="./assets/images/eduTHON.png">
       
         <!-- Facebook -->
@@ -108,6 +109,34 @@
             font-weight: 500;
             font-style: normal;
         }
+        .progress-container {
+            position: fixed;
+            top: 0;
+  width: 100%;
+  height: 8px;
+  background: transparent;
+}
+.progress-bar {
+  height: 8px;
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);; */
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  width: 0%;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(30, 7, 241);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
     </style>
 </head>
 
@@ -177,10 +206,13 @@
             </svg>
         </div>
     </div>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
     <div class="background">
-        <div class="a">
+        <div class="a" id="navbar">
             <div class="aa">
-                <div class="aaa-logo">
+                <div class="aaa-logo" id="logo">
                     <img src="./assets/images/eduTHON.png">
                 </div>
                 <div class="aab">
@@ -4975,12 +5007,24 @@
                         of hardware. We’d love to see anything that solves a social problem or goes with our agenda.
                    </p>
                 </div>
-                <button class="accordion">    What if I dont have a team or an idea ?</button>
+                
+                <button class="accordion">Can I start working on my hack before the event ?</button>
                 <div class="panel">
-                    <p>     Even if you don’t have a team or an idea, that's totally fine! We'll have a team
-                        forming event right before development starts.
-                        We’ll also have an ideation event where everyone will be brainstorming to generate new ideas.
-                  </p>
+                    <p>No. In the interest of fairness, students should not be working on their projects before Hack in the North begins and we do not allow participants to work on pre-existing projects. However, you can familiarize yourself with all the tools and technologies you intend to use beforehand. </p>
+                </div>
+                <button class="accordion">Is there a provision of partial selection of members of team ?</button>
+                <div class="panel">
+                    <p>No, there is no such provision. Selection of a team is done considering all it's members. However the team members can apply as individuals and then form a team after selection.  </p>
+                </div>
+                <button class="accordion">What if I don't want to present my hack ?</button>
+                <div class="panel">
+                    <p>Unfinished or unimpressive (so you think) projects should be presented anyway! Presenting your hack gives you a chance to be proud of what you’ve done, and a constructive perspective of where you should be headed next.
+                    </p>
+                </div>
+                <button class="accordion">What are the tracks this year ?</button>
+                <div class="panel">
+                    <p>Any Practically possile track.
+                    </p>
                 </div>
 
             </div>
@@ -5844,8 +5888,17 @@
             <li class="nav"><a href=><img src="./assets/images/contacticon.svg"></a></i></li>
         </ul>
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     <script src="assets/js/preloader.js"></script>
     <script src="assets/js/scroll.js"></script>
+        window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
 </body>
 
 </html>

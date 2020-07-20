@@ -4,6 +4,9 @@
     box-sizing: border-box;
 	overflow-x: hidden;
 }
+html {
+	scroll-behavior: smooth;
+  }
 i{
 	overflow: visible !important;
 }
