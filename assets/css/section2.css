@@ -75,7 +75,7 @@ footer{
 }
 .rank{
     font-family:Montserrat;
-    color: #3453ff;
+    color: #2745f0;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -91,3 +91,7 @@ footer{
     width: 100%;
     transition: 0.4s;
 } */
+.title
+{
+    margin-bottom: 100px;
+}

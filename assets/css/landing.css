@@ -53,9 +53,9 @@ img{
 
 .reg{
 	margin-top: 40px;
-	width: 275px;
-height: 50px;
-display: flex;
+	/* width: 275px; */
+/* height: 50px; */
+/* display: flex;
 border: 2px solid #FFFFFF;
 	border-radius: 6px;
 	box-shadow: 1px 3px 3px #0000002f;
@@ -67,7 +67,7 @@ border: 2px solid #FFFFFF;
 	margin-left: 10px;
 	font-family: 'Montserrat';
 	margin-bottom: 40px;
-	background: #CFC2C21F 0% 0% no-repeat padding-box;
+	background: #CFC2C21F 0% 0% no-repeat padding-box; */
 }
 .links a{
 	text-decoration: none;
