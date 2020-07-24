@@ -18,7 +18,7 @@
     padding: 12px 25px;
     padding-top: 11px;
     text-align: center;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     
     background: #CFC2C21F 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 24px 0px rgba(55, 26, 221, 0.233);
