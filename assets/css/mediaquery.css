@@ -133,8 +133,8 @@
 .ans p{
 	display: flex;
 	color: #ffffff;
-    font-size: 12px;
-    text-align: center;
+    font-size: 14px;
+    text-align: justify;
 	justify-content: center;
 	font-weight: 400;
 }
