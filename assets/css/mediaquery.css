@@ -342,6 +342,20 @@
 .title{
     margin-bottom: 30px !important;
 }
+.challenge{
+    color:rgb(219, 219, 219);
+    text-decoration: none;
+    border-radius: 2px !important;
+    border:2px solid #071a72 !important;
+    padding: 10px 18px !important;
+    margin-top: 15px;
+    font-weight: 500 !important;
+  /* background: #0a34bd; */
+  background: #0335a1 ;
+  /* font-size: 1.5rem; */
+  transform:translateY(0);
+box-shadow: 0px 0px 12px -3px rgba(0, 40, 126, 0.349);
+}
 }
 
 @media only screen and (max-width: 300px) {

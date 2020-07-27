@@ -170,7 +170,7 @@ border: 2px solid #FFFFFF;
 	color: #ffffff;
 	font-size: 45px;
 	justify-content: center;
-	font-weight: 600;
+	font-weight: 500;
 
 }
 .ans{
@@ -180,8 +180,8 @@ border: 2px solid #FFFFFF;
 .ans p{
 	display: flex;
 	/* font-family:Montserrat; */
-	color: #DADADA;
-	font-size: 20px;
+	color: #f8f8f8;
+	font-size: 1.2rem;
 	text-align: center;
 	justify-content: center;
 	font-weight: 400;
