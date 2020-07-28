@@ -356,6 +356,10 @@
   transform:translateY(0);
 box-shadow: 0px 0px 12px -3px rgba(0, 40, 126, 0.349);
 }
+.conduct{
+    margin-bottom: 11px !important;
+    font-size: 12px !important;
+}
 }
 
 @media only screen and (max-width: 300px) {
