@@ -363,6 +363,63 @@ box-shadow: 0px 0px 12px -3px rgba(0, 40, 126, 0.349);
 .icons{
     font-size:20px !important;
 }
+.mentor{
+    margin-top: 50px !important;
+}
+.mentor h1{
+    text-align: center;
+    font-size:1.1rem !important;
+    color: white;
+    /* font-weight: 600 !important; */
+    margin-bottom: 50px !important;
+    font-family: Montserrat;
+}
+
+.ment2{
+    width:300px;
+    height: 400px;
+    position: relative;
+    overflow-y:hidden ;
+	box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+}
+.ment2:hover img{
+    filter: blur(3px);
+}
+.mentphoto{
+    width:300px !important;
+    height: 300px !important;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+}
+.mentbio{
+    width: 300px !important;
+    height: 100px !important;
+    background-color: white;
+    font-size: 1rem;
+	line-height: 2rem;
+	color: #333;
+    font-weight: 300;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 2px  !important;
+    border-bottom-right-radius: 2px !important;
+}
+.mentjob{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.mentbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 }
 
 @media only screen and (max-width: 300px) {
