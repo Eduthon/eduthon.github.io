@@ -1,0 +1,289 @@
+  <svg id="eqv68vri9tyf1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 300 360.350000" shape-rendering="geometricPrecision"
+                    text-rendering="geometricPrecision">
+                    <style>
+                        <![CDATA[
+                        #eqv68vri9tyf1 {
+                            pointer-events: all
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf5_to {
+                            animation: eqv68vri9tyf5_to__to 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf5_to__to {
+                            0% {
+                                transform: translate(0px, 0px);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: translate(-0.000483px, 252.293573px)
+                            }
+
+                            100% {
+                                transform: translate(-0.000483px, 252.293573px)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf6_to {
+                            animation: eqv68vri9tyf6_to__to 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf6_to__to {
+                            0% {
+                                transform: translate(0px, 0px);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: translate(1.124784px, -295.368853px)
+                            }
+
+                            100% {
+                                transform: translate(1.124784px, -295.368853px)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf8_to {
+                            animation: eqv68vri9tyf8_to__to 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf8_to__to {
+                            0% {
+                                transform: translate(105.297058px, 257.982978px);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: translate(48.372645px, 126.328482px)
+                            }
+
+                            100% {
+                                transform: translate(48.372645px, 126.328482px)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf8_ts {
+                            animation: eqv68vri9tyf8_ts__ts 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf8_ts__ts {
+                            0% {
+                                transform: scale(0.400000, 0.400000);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: scale(1, 1)
+                            }
+
+                            100% {
+                                transform: scale(1, 1)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf8 {
+                            animation: eqv68vri9tyf8_c_o 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf8_c_o {
+                            0% {
+                                opacity: 0;
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            16.666667% {
+                                opacity: 0;
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                opacity: 1
+                            }
+
+                            100% {
+                                opacity: 1
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf12_to {
+                            animation: eqv68vri9tyf12_to__to 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf12_to__to {
+                            0% {
+                                transform: translate(0px, 0px);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: translate(-0.021064px, -209.030265px)
+                            }
+
+                            100% {
+                                transform: translate(-0.021064px, -209.030265px)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf13_to {
+                            animation: eqv68vri9tyf13_to__to 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf13_to__to {
+                            0% {
+                                transform: translate(0px, 0px);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: translate(-0.021064px, -209.030265px)
+                            }
+
+                            100% {
+                                transform: translate(-0.021064px, -209.030265px)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf14_to {
+                            animation: eqv68vri9tyf14_to__to 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf14_to__to {
+                            0% {
+                                transform: translate(0px, 0px);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: translate(-0.021064px, -209.030265px)
+                            }
+
+                            100% {
+                                transform: translate(-0.021064px, -209.030265px)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf15_to {
+                            animation: eqv68vri9tyf15_to__to 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf15_to__to {
+                            0% {
+                                transform: translate(102.381237px, 248.570879px);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: translate(55.887258px, 80.437840px)
+                            }
+
+                            100% {
+                                transform: translate(55.887258px, 80.437840px)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf15_ts {
+                            animation: eqv68vri9tyf15_ts__ts 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf15_ts__ts {
+                            0% {
+                                transform: scale(0.500000, 0.500000);
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                transform: scale(1, 1)
+                            }
+
+                            100% {
+                                transform: scale(1, 1)
+                            }
+                        }
+
+                        #eqv68vri9tyf1:hover #eqv68vri9tyf15 {
+                            animation: eqv68vri9tyf15_c_o 3000ms linear 1 normal forwards
+                        }
+
+                        @keyframes eqv68vri9tyf15_c_o {
+                            0% {
+                                opacity: 0;
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            16.666667% {
+                                opacity: 0;
+                                animation-timing-function: cubic-bezier(0, 0, 0, 1.405000)
+                            }
+
+                            33.333333% {
+                                opacity: 1
+                            }
+
+                            100% {
+                                opacity: 1
+                            }
+                        }
+                        ]]>
+                    </style>
+                    <g id="eqv68vri9tyf2">
+                        <g id="eqv68vri9tyf3">
+                            <rect id="eqv68vri9tyf4" width="300" height="360" rx="4.400000" ry="0"
+                                transform="matrix(1 0 0 1 0 0.35000000000000)" fill="rgb(20,105,242)" stroke="none"
+                                stroke-width="1" />
+                            <g id="eqv68vri9tyf5_to" transform="translate(0,0)">
+                                <path id="eqv68vri9tyf5"
+                                    d="M300,65.500000L300,353C300,357.080000,298,360.390000,295.600000,360.390000L4.400000,360.390000C2,360.350000,0,357,0,353L0,138.730000C28,160.940000,65,177.090000,100,172.350000C162,164,181,96.820000,230,75C255.940000,63.450000,281.600000,63.180000,300,65.500000Z"
+                                    transform="translate(0,0)" opacity="0.5" fill="rgb(10,82,226)" stroke="none"
+                                    stroke-width="1" />
+                            </g>
+                            <g id="eqv68vri9tyf6_to" transform="translate(0,0)">
+                                <path id="eqv68vri9tyf6"
+                                    d="M0,345L0,8.640000C0,3.870000,2,0,4.400000,0L295.600000,0C298,0,300,3.870000,300,8.640000L300,259.310000C272,233.310000,235,214.430000,200,219.970000C138,229.790000,119,308.350000,70,333.880000C44.060000,347.390000,18.400000,347.710000,0,345Z"
+                                    transform="translate(0,0)" opacity="0.5" fill="rgb(10,82,226)" stroke="none"
+                                    stroke-width="1" />
+                            </g><text id="eqv68vri9tyf7" dx="0" dy="0" font-family="CeraPro-Bold, Cera Pro"
+                                font-size="40.066700" font-weight="bold"
+                                transform="matrix(1.05999994277954 0 0 1 68.61000061035156 331.70666885375977)"
+                                fill="rgb(255,255,255)" stroke="none" stroke-width="1">
+                                <![CDATA[Goodies]]></text>
+                            <g id="eqv68vri9tyf8_to" transform="translate(105.297058,257.982978)">
+                                <g id="eqv68vri9tyf8_ts" transform="scale(0.400000,0.400000)"><text id="eqv68vri9tyf8"
+                                        dx="0" dy="0" font-family="Montserrat-Bold, Montserrat" font-size="43.350000"
+                                        font-weight="bold" transform="translate(0,10.837498)" opacity="0"
+                                        fill="rgb(255,255,255)" stroke="none" stroke-width="1">
+                                        <![CDATA[Rs. 10,000]]></text></g>
+                            </g><text id="eqv68vri9tyf9" dx="0" dy="0" font-family="serif" font-size="16"
+                                fill="rgb(0,0,0)" stroke="none" stroke-width="1" />
+                            <path id="eqv68vri9tyf10"
+                                d="M99.590000,207.520000L139.900000,207.520000L139.900000,268.230000C128.130000,268.230000,116.530000,268.310000,104.900000,268.170000C101.650000,268.170000,99.590000,266.170000,99.580000,262.760000C99.560000,244.490000,99.590000,226.220000,99.590000,207.520000Z"
+                                fill="rgb(9,75,170)" stroke="none" stroke-width="1" />
+                            <path id="eqv68vri9tyf11"
+                                d="M200.450000,207.590000L200.450000,217.140000C200.450000,231.610000,200.450000,246.070000,200.450000,260.540000C200.450000,266.740000,198.950000,268.230000,192.810000,268.250000C182.030000,268.300000,171.250000,268.250000,160.130000,268.250000L160.130000,207.590000Z"
+                                fill="rgb(9,75,170)" stroke="none" stroke-width="1" />
+                            <g id="eqv68vri9tyf12_to" transform="translate(0,0)">
+                                <path id="eqv68vri9tyf12"
+                                    d="M167.660000,194.410000C166.180000,196.630000,164.420000,199.250000,162.030000,202.840000L150,190L138.100000,202.940000L132.240000,194.310000C135.760000,189.630000,139.190000,185.090000,142.620000,180.550000L141.690000,179.420000C139.690000,180.190000,137.630000,181,135.580000,181.720000C128.310000,184.280000,121.490000,182.330000,117.380000,176.540000C113.622698,171.019868,113.730692,163.736311,117.650000,158.330000C121.875909,152.607297,129.540325,150.640027,136,153.620000C140.870000,155.620000,145.440000,160.170000,150.190000,160.230000C154.720000,160.290000,159.190000,155.720000,163.900000,153.700000C170.900000,150.700000,178.080000,152.700000,182.260000,158.190000C186.388054,163.681141,186.461011,171.219997,182.440000,176.790000C178.190000,182.510000,171.510000,184.290000,164.140000,181.610000C162.310000,180.940000,160.510000,180.150000,158.700000,179.410000L157.510000,180.410000ZM140.300000,167.600000C136.520000,165.790000,134.110000,164.090000,131.470000,163.600000C129.477527,163.455654,127.520903,164.185737,126.110000,165.600000C125.330000,166.420000,125.580000,169.430000,126.490000,170.330000C127.915669,171.509334,129.790601,171.996377,131.610000,171.660000C134.260000,171,136.680000,169.350000,140.300000,167.600000ZM159.810000,167.600000C163.320000,169.300000,165.720000,170.910000,168.360000,171.600000C170.177968,171.942111,172.054360,171.466612,173.490000,170.300000C174.400000,169.400000,174.670000,166.400000,173.890000,165.560000C172.488991,164.143163,170.537053,163.412100,168.550000,163.560000C165.800000,164.170000,163.300000,165.940000,159.810000,167.640000Z"
+                                    transform="translate(0,0)" fill="rgb(9,75,170)" stroke="none" stroke-width="1" />
+                            </g>
+                            <g id="eqv68vri9tyf13_to" transform="translate(0,0)">
+                                <path id="eqv68vri9tyf13"
+                                    d="M130.790000,188.650000L125.930000,192.290000L132.580000,202.710000C131.413924,202.935852,130.235014,203.089477,129.050000,203.170000Q113.310000,203.170000,97.580000,203.170000C91.130000,203.170000,89.510000,201.570000,89.430000,195.290000C89.430000,191.290000,89.370000,187.290000,89.430000,183.290000C89.490000,179.290000,91.590000,177.170000,95.720000,177.290000C98.220000,177.290000,100.720000,177.420000,103.210000,177.290000C108.580000,176.990000,113.020000,177.460000,117.210000,182.200000C120.350000,185.580000,126.150000,186.560000,130.790000,188.650000Z"
+                                    transform="translate(0,0)" fill="rgb(9,75,170)" stroke="none" stroke-width="1" />
+                            </g>
+                            <g id="eqv68vri9tyf14_to" transform="translate(0,0)">
+                                <path id="eqv68vri9tyf14"
+                                    d="M167.080000,203.170000L174.080000,192.440000L167.910000,187.610000C176.240000,187.320000,182.540000,184.440000,187.020000,178.050000C187.490000,177.380000,189.110000,177.330000,190.200000,177.310000C194.860000,177.230000,199.530000,177.310000,204.200000,177.310000C208.300000,177.260000,210.480000,179.230000,210.560000,183.310000C210.660000,187.970000,210.670000,192.640000,210.560000,197.310000C210.470000,201.130000,208.220000,203.170000,204.510000,203.200000C192.350000,203.230000,180.230000,203.170000,167.080000,203.170000Z"
+                                    transform="translate(0,0)" fill="rgb(9,75,170)" stroke="none" stroke-width="1" />
+                            </g>
+                            <g id="eqv68vri9tyf15_to" transform="translate(102.381237,248.570879)">
+                                <g id="eqv68vri9tyf15_ts" transform="scale(0.500000,0.500000)"><text id="eqv68vri9tyf15"
+                                        dx="0" dy="0" font-family="Montserrat-Bold, Montserrat" font-size="30"
+                                        font-weight="bold" transform="translate(0,7.499996)" opacity="0"
+                                        fill="rgb(255,255,255)" stroke="none" stroke-width="1">
+                                        <![CDATA[Worth up to]]></text></g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
