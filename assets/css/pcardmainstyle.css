@@ -1,0 +1,274 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1f9fc;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+.pCard_card {
+    width: 300px;
+    height: 400px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    /* overflow: visible; */
+    margin: 50px auto;
+    /* overflow-y: visible !important; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 0px;
+    background-color: #f6fcfe;
+    -webkit-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+    -ms-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+    -o-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+    position: relative;
+    overflow: hidden;
+}
+
+/****************
+Back
+****************/
+
+.pCard_card .pCard_back {
+    text-align: center;
+    position: absolute;
+    overflow: visible;
+    left: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    right: 0;
+    top: 50%;
+    margin-top: -60px;
+    font-weight: 600;
+    z-index: 1;
+    
+    
+}
+.pCard_card .pCard_back a {
+    text-decoration: none;
+}
+
+/****************
+UP
+****************/
+.pCard_card  .pCard_up img{
+    height: 100%;
+    overflow: hidden;
+}
+.pCard_card  .pCard_up {
+    position: absolute;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100%;
+    height: 300px;
+    overflow: visible;
+    background-color: black;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 3;
+    text-align: center;
+    /* -webkit-border-top-left-radius: 30px;
+    -moz-border-top-left-radius: 30px;
+    -ms-border-top-left-radius: 30px;
+    -o-border-top-left-radius: 30px; */
+    border-top-left-radius: 0px;
+    /* -webkit-border-top-right-radius: 30px;
+    -moz-border-top-right-radius: 30px;
+    -ms-border-top-right-radius: 30px;
+    -o-border-top-right-radius: 30px; */
+    border-top-right-radius: 0px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    
+}
+
+.pCard_on  .pCard_up{
+    height: 90px;
+    box-shadow: 0 0 30px #CFD8DC;
+}
+.pCard_on  .pCard_up img{
+  filter: blur(2px);
+}
+
+.pCard_card  .pCard_up .pCard_text {
+    position: absolute;
+    top: 210px;
+    font-family: Montserrat;
+    left: 0;
+    overflow: visible;
+    right: 0;
+    color: #f1f7f9;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.pCard_on  .pCard_up .pCard_text {
+    top: 20px;
+    font-family: Montserrat;
+}
+
+.pCard_card  .pCard_up .pCard_text h2{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pCard_card  .pCard_up .pCard_text p{
+    margin: 0;
+    font-size: 16px;
+    color: #E3F1F5;
+}
+
+.pCard_card  .pCard_up .pCard_add {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    overflow: visible;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    -webkit-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    -ms-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    -o-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    position: absolute;
+    top: 275px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.pCard_on  .pCard_up .pCard_add {
+    overflow: visible;
+    transform: rotate(315deg) scale(.5);
+    top: 275px;
+}
+
+/****************
+Down
+****************/
+
+.pCard_card .pCard_down {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-bottom-left-radius: 30px;
+    -ms-border-bottom-left-radius: 30px;
+    -o-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 0px;
+    -webkit-border-bottom-right-radius: 30px;
+    -moz-border-bottom-right-radius: 30px;
+    -ms-border-bottom-right-radius: 30px;
+    -o-border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 0px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.pCard_on .pCard_down {
+    height: 100px;
+    -webkit-box-shadow: 0 0 30px #CFD8DC;
+    -moz-box-shadow: 0 0 30px #CFD8DC;
+    -ms-box-shadow: 0 0 30px #CFD8DC;
+    -o-box-shadow: 0 0 30px #CFD8DC;
+    box-shadow: 0 0 30px #CFD8DC;
+    overflow: visible;
+
+}
+
+.pCard_card .pCard_down div {
+    width: 100%;
+    float: left;
+    overflow: visible;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.pCard_on .pCard_down div {
+    margin-top: 25px;
+}
+
+.pCard_card .pCard_down div p:first-of-type {
+  
+    color: #334750;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.pCard_card .pCard_down div p:last-of-type {
+    color: #68818c;
+    margin-top: 5px;
+}
+.team{
+    width: 80%;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.team h1{
+    text-align: left;
+    padding:  3% 0;
+    border-bottom: 2px solid white;
+    font-size:2rem;
+    font-weight: 400;
+    color: white;
+    /* margin-bottom: 80px; */
+    font-family: Montserrat;
+}
+.team h2{
+    font-size:1.2rem;
+    color: white;
+    padding-top: 3%;
+    font-weight: 200;
+    margin-bottom:20px;
+    font-family: Montserrat;
+
+}  
+.teamcard{
+    display:flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,60 @@
+.pCard_card .pCard_back a i{
+    margin: 10px;
+    padding: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.pCard_card .pCard_back a i:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.pCard_card .pCard_back a:nth-of-type(1) i {
+    color: #3B5998;
+    border: 2px solid #3B5998;
+}
+
+
+.pCard_card .pCard_back a:nth-of-type(2) i{
+    color: #0077B5;
+    border: 2px solid #0077B5;
+}
+
+.pCard_card .pCard_back a:nth-of-type(3) i{
+    color: #1769FF;
+    border: 2px solid #1769FF;
+}
+
+.pCard_card .pCard_back a:nth-of-type(4) i{
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.pCard_card .pCard_back a:nth-of-type(5) i{
+    color: #EB5E95;
+    border: 2px solid #EB5E95;
+}
+
+.pCard_card .pCard_back a:nth-of-type(6) i{
+    color: #3F729B;
+    border: 2px solid #3F729B;
+}
+
+
+.pCard_card  .pCard_up .pCard_add i {
+    color: white;
+    font-size: 38px;
+    line-height: 50px;
+}
