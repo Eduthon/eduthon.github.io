@@ -454,6 +454,9 @@ height: 8px !important;
     top:0px;
     height: 8px !important;
 }
+.logo{
+    padding:8px;
+}
 }
 
 @media only screen and (max-width: 300px) {
