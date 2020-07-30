@@ -74,6 +74,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/devfolio.css">
     <link rel="stylesheet" type="text/css" href="assets/css/accordation.css ">
     <link rel="stylesheet" type="text/css" href="assets/css/pcardicon.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/pcardmainstyle.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="assets/css/section.css">
@@ -82,6 +83,7 @@
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+        <script src="assets/js/jquery.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
     <style>
         @font-face {
@@ -119,16 +121,16 @@
             font-style: normal;
         }
         .progress-container {
-            z-index: 100;
+            z-index: 10001;
             position: fixed;
-            top: 0;
+            bottom:0px;
   width: 100%;
-  height: 8px;
+  height: 4px;
   background: transparent;
 }
 .progress-bar {
-    z-index: 100;
-  height: 8px;
+    z-index: 10001;
+  height: 4px;
   /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);; */
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   width: 0%;
@@ -220,10 +222,38 @@
     <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
       </div> 
+
+      <nav class="nav" style="overflow: visible;">
+        <div class="container" style="overflow: visible;">
+            <div class="logo" style="overflow: visible;">
+                <a href="#"><img class="logoimage" src="./assets/images/eduTHON.png"></a>
+            </div>
+            <div id="mainListDiv" class="main_list" style="overflow-x: visible;">
+                <ul class="navlinks" style="overflow-x: visible;">
+                    <li style="overflow-x: visible;"><a href="#">About</a></li>
+                    <li style="overflow-x: visible;"><a href="#">Prizes</a></li>
+                    <li style="overflow-x: visible;"><a href="#">FAQs</a></li>
+                    <li style="overflow-x: visible;"><a href="#">Sponsors</a></li>
+                    <li style="overflow-x: visible;"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span> -->
+        </div>
+    </nav>
+    
+
+
+
+
+
     <div class="background">
-        <div class="a" id="navbar">
-            <div class="aa">
-                <div class="aaa-logo" id="logo">
+        <!-- <div class="a" >
+            <div class="aa" >
+                <div class="aaa-logo">
                     <img src="./assets/images/eduTHON.png">
                 </div>
                 <div class="aab">
@@ -236,7 +266,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="mobileiso">
             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 450 500">
@@ -6273,7 +6303,7 @@
         <div class="pCard_card" id="tid13">
             
             <div class="pCard_up">
-                <img src="assets/images/alternative.jpg">
+                <img src="assets/images/Parag.jpeg">
                 <div class="pCard_text">
                 </div> 
                 
@@ -6418,17 +6448,28 @@
     </footer>
     <div class="navigation" style="z-index: 10000;">
         <ul>
-            <li class="nav"><a href="#info"><img src="./assets/images/infoicon.svg"></a></li>
-            <li class="nav"><a href="#questionicon"><img src="./assets/images/questionicon.svg"></a></li>
-            <li class="nav"><a href="#trophy"><img src="./assets/images/trophyicon.svg"></a></li>
-            <li class="nav"><a href="#sponsor"><img src="./assets/images/sponsoricon.svg"></a></li>
-            <li class="nav"><a href="#contact"><img src="./assets/images/contacticon.svg"></a></i></li>
+            <li class="navi"><a href="#info"><img src="./assets/images/infoicon.svg"></a></li>
+            <li class="navi"><a href="#questionicon"><img src="./assets/images/questionicon.svg"></a></li>
+            <li class="navi"><a href="#trophy"><img src="./assets/images/trophyicon.svg"></a></li>
+            <li class="navi"><a href="#sponsor"><img src="./assets/images/sponsoricon.svg"></a></li>
+            <li class="navi"><a href="#contact"><img src="./assets/images/contacticon.svg"></a></i></li>
         </ul>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <script>
+         $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+    </script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/preloader.js"></script>
     <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/navbar.js"></script>
     <script src="assets/js/timer.js"></script>
     <script src="assets/js/pcardscript.js"></script>
     

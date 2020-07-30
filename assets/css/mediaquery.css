@@ -443,6 +443,17 @@ box-shadow: 0px 0px 12px -3px rgba(0, 40, 126, 0.349);
     justify-content: center;
     flex-wrap: wrap;
 }
+.affix {
+    padding: 0;
+    background-color: transparent !important;
+}
+.progress-bar{
+height: 8px !important;
+}
+.progress-container{
+    top:0px;
+    height: 8px !important;
+}
 }
 
 @media only screen and (max-width: 300px) {
