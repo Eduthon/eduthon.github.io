@@ -371,9 +371,32 @@ box-shadow: 0px 0px 12px -3px rgba(0, 40, 126, 0.349);
     font-size:1.1rem !important;
     color: white;
     /* font-weight: 600 !important; */
-    margin-bottom: 50px !important;
+    margin-bottom: 10px !important;
     font-family: Montserrat;
 }
+.mentor h2{
+    font-size: 0.9rem !important;
+}
+.team h1{
+    text-align: left;
+    padding:  2% 0 !important; 
+    border-bottom: 2px solid white;
+    font-size:1.1rem !important;
+    /* font-weight: 400; */
+    color: white;
+    /* margin-bottom: 80px; */
+    margin-bottom: 10px !important;
+    font-family: Montserrat;
+}
+.team h2{
+    font-size:0.9rem !important;
+    color: white;
+    padding-top: 2% 0;
+    font-weight: 200;
+    margin-bottom:20px;
+    font-family: Montserrat;
+
+}  
 
 .ment2{
     width:300px;
