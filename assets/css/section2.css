@@ -151,14 +151,14 @@ box-shadow: 0px 0px 12px -3px rgba(0, 40, 126, 0.349);
     text-align: left;
     padding:  3% 0;
     border-bottom: 2px solid white;
-    font-size:2rem;
+    font-size:25px;
     font-weight: 400;
     color: white;
     /* margin-bottom: 80px; */
     font-family: Montserrat;
 }
 .mentor h2{
-    font-size:1.2rem;
+    font-size:18px;
     color: white;
     padding-top: 3%;
     font-weight: 200;
