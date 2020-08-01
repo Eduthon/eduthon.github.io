@@ -143,7 +143,9 @@
     font-size: 20px;
 }
 .mentbox{
-    display: flex;
-    justify-content: center;
+	display: flex;
+	width:80%;
+	margin: 0 auto;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
