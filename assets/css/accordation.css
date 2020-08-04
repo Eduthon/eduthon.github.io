@@ -74,6 +74,7 @@
 .img{
     width: 175px;
     margin: 0 50px;
+    margin-bottom: 50px;
     /* height: 200px; */
 }
 .gold{
