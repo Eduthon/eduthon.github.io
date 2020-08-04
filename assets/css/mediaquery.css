@@ -460,6 +460,9 @@ height: 8px !important;
 .logo{
     padding:0px !important;
 }
+.platinum{
+    margin-bottom: 30px !important;
+}
 }
 
 @media only screen and (max-width: 300px) {
