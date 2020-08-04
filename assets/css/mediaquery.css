@@ -314,6 +314,7 @@
 .img{
     width: 60px !important;
     margin: 0 20px !important;
+    margin-bottom: 10px !important;
 }
 .patimage .gold {
     width: 80px !important;
