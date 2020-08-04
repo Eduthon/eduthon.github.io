@@ -458,7 +458,7 @@ height: 8px !important;
     height: 8px !important;
 }
 .logo{
-    padding:8px;
+    padding:0px !important;
 }
 }
 
