@@ -145,7 +145,7 @@
 }
 .mentbox{
 	display: flex;
-	width:80%;
+	width:100%;
 	margin: 0 auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
