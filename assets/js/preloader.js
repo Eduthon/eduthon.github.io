@@ -1,10 +1,7 @@
 var matches = document.querySelectorAll("#preload")
-window.addEventListener('load',function(){
+window.addEventListener('DOMContentLoaded',function(){
     setTimeout(function(){ matches[0].style.display = 'none'; },0000);
 });
-
-
-
 var acc = document.getElementsByClassName("accordion");
 var i;
 
