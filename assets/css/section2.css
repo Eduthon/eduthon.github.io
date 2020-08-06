@@ -75,7 +75,8 @@ footer{
 }
 .rank{
     font-family:Montserrat;
-    color: #2745f0;
+    /* color: #2745f0; */
+    color: #279bf0;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -117,21 +118,23 @@ footer{
     color:rgb(219, 219, 219);
     text-decoration: none;
     border-radius: 40px;
-    border:2px solid #071a72;
+    /* border:2px solid #071a72; */
+    border:2px solid #063b5b;
     padding: 12px 25px;
     margin-top: 15px;
     font-weight: 500 !important;
   /* background: #0a34bd; */
-  background: #0042cf;
+  /* background: #0042cf; */
+  background: #146179;
   /* font-size: 1.5rem; */
   transform:translateY(0);
 box-shadow: 0px 0px 12px -3px rgba(0, 40, 126, 0.349);
 }
 .challenge:hover{
-    background: #032f8f;
+    background: #093a49;
 }
 .challenge:active{
-    background: #032f8f;
+    background: #083542;
  transform:translateY(-2px);
 }
 .conduct{

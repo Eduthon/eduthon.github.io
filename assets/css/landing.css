@@ -44,8 +44,8 @@ img{
 .background {
 	padding-top: 100px;
 	/* background-image: linear-gradient(-44.66deg, #2b0a6a 0%, #250a8f 52.2%, #0a0737 100%); */
-	background-image:linear-gradient(76.66deg, #3d07bb 0%, #163ec0 52.2%, #006eff 100%);
-	/* background-image:linear-gradient(76.66deg, #326076 0%, #1691c0 52.2%, #374352 100%); */
+	/* background-image:linear-gradient(76.66deg, #3d07bb 0%, #163ec0 52.2%, #006eff 100%); */
+	background-image:linear-gradient(76.66deg, #326076 0%, #1691c0 52.2%, #374352 100%);
 	/* background-image:linear-gradient(30deg,#2394f8 0%, #1691c0 52.2%,#0e71dc 100%); */
 
 }
