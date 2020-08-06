@@ -1,6 +1,6 @@
 .navigation{
-    /* background-color: rgb(19, 72, 154); */
-    background-color: rgb(27, 92, 112);
+    background-color: rgb(19, 72, 154);
+    /* background-color: rgb(27, 92, 112); */
     height: 50px;
     position: fixed !important;
      visibility: hidden;
