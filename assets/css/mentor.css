@@ -107,7 +107,7 @@
     height: 400px;
     position: relative;
 	overflow-y:hidden ;
-	margin: 50px auto;
+	margin: 50px 1.5%;
 	box-shadow: 0 5px 18px rgba(0, 0, 0, 0.795);
 }
 .ment2:hover img{

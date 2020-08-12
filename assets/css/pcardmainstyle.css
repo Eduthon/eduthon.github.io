@@ -19,7 +19,7 @@ body {
     -o-box-sizing: content-box;
     box-sizing: content-box;
     /* overflow: visible; */
-    margin: 50px auto;
+    margin: 50px 1.5%;
     /* overflow-y: visible !important; */
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
