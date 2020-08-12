@@ -129,7 +129,7 @@
 
 .accordion {
     font-family:Montserrat;
-    color: #0099ff;
+    color: #0099ff !important;
     outline: none;
     cursor: pointer;
     background: none;
