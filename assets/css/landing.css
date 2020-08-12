@@ -165,7 +165,7 @@ border: 2px solid #FFFFFF;
 }
 .ques{
 	display: flex;
-	/* font-family:Montserrat; */
+	font-family:Montserrat;
 	color: #ffffff;
 	font-size: 45px;
 	justify-content: center;
@@ -178,7 +178,7 @@ border: 2px solid #FFFFFF;
 }
 .ans p{
 	display: flex;
-	/* font-family:Montserrat; */
+	font-family:Montserrat;
 	color: #f8f8f8;
 	font-size: 18px;
 	text-align: center;
