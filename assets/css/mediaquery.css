@@ -5,7 +5,10 @@
 *{
     overflow-x: hidden;
 }
-
+.coming{
+    margin-top: 35%;
+    margin-bottom:35% ;
+}
 .hero{
     width: max-content;
     margin: 0 auto;
