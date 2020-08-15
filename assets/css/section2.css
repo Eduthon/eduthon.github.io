@@ -93,17 +93,9 @@ footer{
     transition: 0.4s;
 } */
 .cs{
-    background-color: black;
+    background-color:#197BDD;
 }
-.coming{
-   width: 80%;
-   margin: 0 10%;
-   border: ;
-}
-.coming img{
- border:0;
- outline: none !important;
-}
+
 .title
 {
     margin-bottom: 100px;
