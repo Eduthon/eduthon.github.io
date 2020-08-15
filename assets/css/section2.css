@@ -92,6 +92,18 @@ footer{
     width: 100%;
     transition: 0.4s;
 } */
+.cs{
+    background-color: black;
+}
+.coming{
+   width: 80%;
+   margin: 0 10%;
+   border: ;
+}
+.coming img{
+ border:0;
+ outline: none !important;
+}
 .title
 {
     margin-bottom: 100px;
