@@ -1,5 +1,7 @@
 @media only screen and (max-width: 500px) {
-
+    .edupar{
+        margin-top: 20px !important;
+    }
     .timelineBox {
         /* max-width: 400px; */
         width:350px;
