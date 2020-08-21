@@ -103,18 +103,42 @@ body {
 	border-radius: 2rem;
 	flex: 0 0 1.5rem;
 	margin-right: auto;
-	margin-top: 6px;
-	box-shadow: 0 0 8px #56cb5f;
+    margin-top: 44px;
+    overflow-x: visible !important;
+	box-shadow: 0 0 8px #55adff;
 }
 
 .timelineBody .timeline .timelineDot::after {
 	content: '';
 	position: absolute;
-	top: 9px;
+	top: 47px;
 	left: 3px;
 	height: 9px;
 	width: 9px;
-	background: #56cb5f;
+	background: #55adff;
+	border-radius: 50%;
+}
+
+
+.timelineBody .timeline .timelineDot :first {
+	height: 1.5rem;
+	width: 1.5rem;
+	background: #fff;
+	border-radius: 2rem;
+	flex: 0 0 1.5rem;
+	margin-right: auto;
+	margin-top: 44px;
+	box-shadow: 0 0 8px #3c3e41;
+}
+
+.timelineBody .timeline .timelineDot::after :first{
+	content: '';
+	position: absolute;
+	top: 47px;
+	left: 3px;
+	height: 9px;
+	width: 9px;
+	background: ##3c3e41;
 	border-radius: 50%;
 }
 
@@ -172,6 +196,8 @@ body {
 }
 .timedcard{
     display: flex;
+    margin-left:5px;
+
 }
 .timedcard1{
     border-top-right-radius: 10px;
@@ -179,8 +205,12 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     height:100px;
-    width:60px;
-    background-color: #56cb5f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    background-color: #e6e6e6;
 }
 .timedimage{
     border-radius: 50%;
@@ -190,13 +220,31 @@ body {
 .timedname{
     font-family: 'Montserrat';
     font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
 }
 .timedcard2{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #56cb5f;
+    background-color: #e6e6e6;
     width:240px;
     height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timedate{
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #383838;
+}
+.timedtopic{
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+    margin:15px 0;
+    font-weight: 600;
 }
