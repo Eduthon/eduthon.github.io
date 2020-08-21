@@ -1,30 +1,41 @@
-/* * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} */
-
-/* html {
-	box-sizing: inherit;
-	font-family: Lato, sans-serif;
-	font-size: 62.5%;
-	line-height: 1.5;
+.timelinepc{
+    width:800px;
+    /* height:75vh; */
+    /* border-radius: 20px; */
+    margin: 140px auto;
+    /* margin-top:140px; */
+    /* background-color: rgb(23, 59, 160); */
 }
 
-body {
-	font-family: inherit;
-	font-size: 1.6rem;
-	font-weight: normal;
-	line-height: inherit;
-	background: #efefef;
-} */
-
-/* .wrapper {
-	width: 100%;
-	max-width: 1140px;
-	margin: 0 auto;
-} */
-
+.eventschedule{
+font-size:3rem;
+color:white;
+font-family: 'Montserrat';
+font-weight: 600;
+text-align: center;
+}
+.eventschedule2{
+    font-size:1.2rem;
+    color:white;
+    text-align: center;
+    margin-top:5px;
+    font-family: 'Montserrat';
+}
+.eventschedule3{
+    font-size:2rem;
+    color:rgb(44, 44, 44);
+    text-align: center;
+    border: 2px solid rgb(7, 95, 189);
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgb(168, 213, 255);
+    padding:10px 15px;
+    border-radius: 4px;
+    margin-top:45px;
+    /* text-decoration: underline; */
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
 .timelineBox {
     /* max-width: 400px; */
     width:350px;
@@ -60,13 +71,14 @@ body {
 	color: #fff;
 }
 
-.timelineBody {
-	max-height: 400px;
+.timelineBody1 {
+    /* max-height: 400px; */
+    margin-top:50px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
 
-.timelineBody .timeline {
+.timelineBody1 .timeline {
 	padding: 3rem 2rem !important;
 	margin: 0;
 	padding: 0;
@@ -75,7 +87,7 @@ body {
 	z-index: 2;
 }
 
-.timelineBody .timeline:before {
+.timelineBody1 .timeline:before {
 	content: '';
 	position: absolute;
 	width: 4px;
@@ -88,15 +100,15 @@ body {
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.085), 0 1px 0 rgba(0, 0, 0, 0.02);
 }
 
-.timelineBody .timeline li {
+.timelineBody1 .timeline li {
 	display: flex;
 	align-items: flex-start;
 	justify-content: flex-start;
-	margin-bottom: 2rem;
+	margin-bottom: 5rem;
 	position: relative;
 }
 
-.timelineBody .timeline .timelineDot {
+.timelineBody1 .timeline .timelineDot {
 	height: 1.5rem;
 	width: 1.5rem;
 	background: #fff;
@@ -108,7 +120,7 @@ body {
 	box-shadow: 0 0 8px #55adff;
 }
 
-.timelineBody .timeline .timelineDot::after {
+.timelineBody1 .timeline .timelineDot::after {
 	content: '';
 	position: absolute;
 	top: 47px;
@@ -120,7 +132,7 @@ body {
 }
 
 
-.timelineBody .timeline .timelineDot :first {
+.timelineBody1 .timeline .timelineDot :first {
 	height: 1.5rem;
 	width: 1.5rem;
 	background: #fff;
@@ -131,7 +143,7 @@ body {
 	box-shadow: 0 0 8px #3c3e41;
 }
 
-.timelineBody .timeline .timelineDot::after :first{
+.timelineBody1 .timeline .timelineDot::after :first{
 	content: '';
 	position: absolute;
 	top: 47px;
@@ -142,48 +154,36 @@ body {
 	border-radius: 50%;
 }
 
-.timelineBody .timeline .timelineDate {
+.timelineBody1 .timeline .timelineDate {
 	font-size: 1.2rem;
 	flex: 0 0 80px;
 	padding: 0.2rem;
 }
 
-.timelineBody .timeline .timelineWork {
+.timelineBody1 .timeline .timelineWork {
 	font-family: inherit;
 	font-size: 1.4rem;
 	margin-left: auto;
 	flex: 0 0 170px;
 }
 
-.timelineBody .timeline .timelineWork small {
+.timelineBody1 .timeline .timelineWork small {
 	display: block;
 	color: #bdbdbd;
 }
 
-.timelineBody::-webkit-scrollbar-track {
+.timelineBody1::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	background-color: #F5F5F5;
 }
 
-.timelineBody::-webkit-scrollbar {
+.timelineBody1::-webkit-scrollbar {
 	width: 6px;
 	background-color: #F5F5F5;
 }
 
-.timelineBody::-webkit-scrollbar-thumb {
+.timelineBody1::-webkit-scrollbar-thumb {
 	background-color: #1593e7;
-}
-
-
-
-.ajay a {
-	text-decoration: none;
-	color: #333;
-}
-
-.ajay a:hover {
-	text-decoration: underline;
-	color: #000;
 }
 
 .timelined{
@@ -210,17 +210,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100px;
+    width:150px;
     background-color: #e6e6e6;
 }
 .timedimage{
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
 }
 .timedname{
     font-family: 'Montserrat';
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
     text-align: center;
 }
@@ -230,12 +230,13 @@ body {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #e6e6e6;
-    width:240px;
+    width:500px;
     height:100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding:0 30px;
 }
 .timedate{
     font-size: 1.3rem;
@@ -248,4 +249,4 @@ body {
     font-family: 'Montserrat';
     margin:15px 0;
     font-weight: 600;
-}
+}   
