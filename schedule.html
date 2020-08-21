@@ -75,6 +75,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/section2.css">
     <link rel="stylesheet" type="text/css" href="assets/css/mentor.css">
     <link rel="stylesheet" type="text/css" href="assets/css/devfolio.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/timeline.css">
     <link rel="stylesheet" type="text/css" href="assets/css/accordation.css ">
     <link rel="stylesheet" type="text/css" href="assets/css/pcardicon.css">
     <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
@@ -163,71 +164,6 @@
 </head>
 
 <body class="cs">
-    <!-- <div id="preload" style="z-index: 100000;">
-        <div class="spinner">
-            <svg id="b8f0f583-ae25-485b-9800-785aadfe9913" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 415.44 85.55">
-                <defs>
-                    <style>
-                        .e9e0d539-bb38-4800-a7bb-149b8e1de6d1 {
-                            opacity: 0.99;
-                        }
-
-                        .ae37381b-8d05-4a68-9203-39d6ac23bc3a,
-                        .b0d4b5d7-88ec-425c-9b17-6cee5dedc6fb,
-                        .e48cb252-dcf2-40e6-88bb-6b32af2f3d2b,
-                        .f65251d3-371b-4aee-b333-faec200a3e35 {
-                            fill: none;
-                            stroke-miterlimit: 10;
-                            stroke-width: 3px;
-                        }
-
-                        .ae37381b-8d05-4a68-9203-39d6ac23bc3a {
-                            stroke: url(#a677aba4-287d-4c7a-9388-5d4e4d69475f);
-                        }
-
-                        .e48cb252-dcf2-40e6-88bb-6b32af2f3d2b {
-                            stroke: url(#b544b414-261e-434e-937c-7b0eb21a28c8);
-                        }
-
-                        .b0d4b5d7-88ec-425c-9b17-6cee5dedc6fb {
-                            stroke: url(#e7e1fd36-8f70-44b0-872e-dc9cf898a743);
-                        }
-
-                        .f65251d3-371b-4aee-b333-faec200a3e35 {
-                            stroke: url(#baf210e1-7fba-4682-ac74-1928f2e36538);
-                        }
-                    </style>
-                    <linearGradient id="a677aba4-287d-4c7a-9388-5d4e4d69475f" x1="497.62" y1="666.81" x2="563.48"
-                        y2="666.81" gradientUnits="userSpaceOnUse">
-                        <stop offset="0" stop-color="#f2f2f2" />
-                        <stop offset="1" stop-color="#9c9da0" />
-                    </linearGradient>
-                    <linearGradient id="b544b414-261e-434e-937c-7b0eb21a28c8" x1="555.43" y1="655.07" x2="786.09"
-                        y2="655.07" xlink:href="#a677aba4-287d-4c7a-9388-5d4e4d69475f" />
-                    <linearGradient id="e7e1fd36-8f70-44b0-872e-dc9cf898a743" x1="778.72" y1="667.05" x2="849.82"
-                        y2="667.05" xlink:href="#a677aba4-287d-4c7a-9388-5d4e4d69475f" />
-                    <linearGradient id="baf210e1-7fba-4682-ac74-1928f2e36538" x1="842.35" y1="667.05" x2="913.06"
-                        y2="667.05" xlink:href="#a677aba4-287d-4c7a-9388-5d4e4d69475f" />
-                </defs>
-                <title></title>
-                <g class="lin" class="e9e0d539-bb38-4800-a7bb-149b8e1de6d1">
-                    <path class="ae37381b-8d05-4a68-9203-39d6ac23bc3a"
-                        d="M537.19,684.07a19.18,19.18,0,0,1-9,2.19,18.69,18.69,0,0,1-6.55-1.17,19.75,19.75,0,0,1-5.67-3.2l34.63-34.53H562v-9.7H528.22a29.15,29.15,0,1,0,0,58.3,28.48,28.48,0,0,0,13.68-3.4,28.92,28.92,0,0,0,10.18-8.92l-8-5.63A18.86,18.86,0,0,1,537.19,684.07Zm-28.37-17.21a18.84,18.84,0,0,1,1.55-7.62,19.66,19.66,0,0,1,10.33-10.33,18.61,18.61,0,0,1,7.52-1.55h8.63L510.18,674A19.5,19.5,0,0,1,508.82,666.86Z"
-                        transform="translate(-497.62 -612.3)" />
-                    <path class="e48cb252-dcf2-40e6-88bb-6b32af2f3d2b"
-                        d="M784.59,647.65V638H744.53a29.6,29.6,0,0,0-9.65,2.18,27.67,27.67,0,0,0-8.3,5.29V613.89h-9.7v24h-21V613.8h-9.7v24.25H670.91V667a18.42,18.42,0,0,1-1.56,7.52A19.66,19.66,0,0,1,659,684.8a19.24,19.24,0,0,1-15.13,0,19.66,19.66,0,0,1-10.33-10.33A18.58,18.58,0,0,1,632,667v-28.9h-5v-.2h-4.85a6.56,6.56,0,0,1-4.85-2.08,6.76,6.76,0,0,1-2-4.9V626h-.1V613.8h-9.7v31.62a28.53,28.53,0,0,0-9-5.58,29.15,29.15,0,0,0-31,47.87,29.1,29.1,0,0,0,35.11,4.66V680.05a20,20,0,0,1-6.45,4.75,18.8,18.8,0,0,1-8.1,1.75,18.61,18.61,0,0,1-7.52-1.55,19.75,19.75,0,0,1-10.33-10.33,18.61,18.61,0,0,1-1.55-7.52,18.84,18.84,0,0,1,1.55-7.62,19.66,19.66,0,0,1,10.33-10.33,18.61,18.61,0,0,1,7.52-1.55,19.09,19.09,0,0,1,7.52,1.5,19.94,19.94,0,0,1,6.16,4.08,19.59,19.59,0,0,1,5.82,13.53v29.39h9.7V645.9a15.38,15.38,0,0,0,7,1.65h.1V667a29.15,29.15,0,1,0,58.3,0v-19.2h5.52V667a29,29,0,0,0,29.1,29.1h1.65v.29h9.61l.09-29.19a18.84,18.84,0,0,1,1.55-7.62,19.75,19.75,0,0,1,10.33-10.33,18.61,18.61,0,0,1,7.52-1.55,19.09,19.09,0,0,1,7.52,1.5,19.94,19.94,0,0,1,6.16,4.08,19.59,19.59,0,0,1,5.82,13.53v29.29h9.7V666.57a28.1,28.1,0,0,0-7.47-18.92Zm-69.36,38.7a18.4,18.4,0,0,1-7.51-1.55,19.66,19.66,0,0,1-10.33-10.33,18.42,18.42,0,0,1-1.56-7.52v-19.4h21v38.8Z"
-                        transform="translate(-497.62 -612.3)" />
-                    <path class="b0d4b5d7-88ec-425c-9b17-6cee5dedc6fb"
-                        d="M822.22,652.6a19.32,19.32,0,0,1,4.85,6.45,18.8,18.8,0,0,1,1.75,8.1,18.61,18.61,0,0,1-1.55,7.52A19.75,19.75,0,0,1,816.94,685a18.84,18.84,0,0,1-7.62,1.55,18.56,18.56,0,0,1-7.51-1.55,19.75,19.75,0,0,1-10.33-10.33,18.45,18.45,0,0,1-1.56-7.52,19.39,19.39,0,0,1,5.63-13.78,20.18,20.18,0,0,1,6.16-4.17,18.58,18.58,0,0,1,7.52-1.55h21.82l-.1-.1h17.37v-9.7h-40v.1a29.24,29.24,0,1,0,30.17,29.2,28.46,28.46,0,0,0-3.88-14.55Z"
-                        transform="translate(-497.62 -612.3)" />
-                    <path class="f65251d3-371b-4aee-b333-faec200a3e35"
-                        d="M911.56,637.85H871.5v.1a28,28,0,0,0-18,7.37v-.09a29.92,29.92,0,0,0-7.08,9.4,27,27,0,0,0-2.62,11.84v29.78h9.61l.09-29.2a18.64,18.64,0,0,1,1.56-7.61,19.66,19.66,0,0,1,10.33-10.33,18.41,18.41,0,0,1,7.51-1.56,19.06,19.06,0,0,1,7.52,1.51,19.3,19.3,0,0,1,10.33,10.13,19.2,19.2,0,0,1,1.65,7.47V696h9.7V666.47a28.82,28.82,0,0,0-7.47-18.92h16.88Z"
-                        transform="translate(-497.62 -612.3)" />
-                </g>
-            </svg>
-        </div>
-    </div> -->
     <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
     </div>
@@ -250,9 +186,77 @@
             </div>
         </div>
     </nav>
+    <div class="timelined">
+        
+  <div class="wrapper">
+    <div class="timelineBox">
+      <div class="timelineHeader">
+        <h3>Event Schedule</h3>
+        <span>Speakers will share their acknowledge with Everyone</span>
+      </div>
+      <div class="timelineBody">
+        <ul class="timeline">
+          <li>
+            <div class="timelineDot"></div>
+            <!-- <div class="timelineDate">28th Aug 2020</div>
+            <div class="timelineWork">On-site Network Support Enginner<small>OmniPrime Marketing, inc.</small></div>
+          </li> -->
+          <div class="timedcard">
+            <div class="timedcard1">
+                <div class="timedimage">
+                    <img src="assets/images/Alon_Grinshpoon_3.png">
+                </div>
+                <div class="timedname">
+                    <small>Mr. Doland Trump</small>
+                </div>
+            </div>
+            <div class="timedcard2"></div>
+          </div>
+          
+        </li>
+          <li>
+            <div class="timelineDot"></div>
+            <div class="timelineDate">Jan 2014 to May 2015</div>
+            <div class="timelineWork">IT Support / Web Designer & Developer<small>IT.Resources Corporation (ITRC)</small></div>
+          </li>
+          <li>
+            <div class="timelineDot"></div>
+            <div class="timelineDate">Nov 2012 to Oct 2014</div>
+            <div class="timelineWork">OJT Graphic Artist / IT Support<small>Lima Gulf Industrial Trading</small></div>
+          </li>
+          <li>
+            <div class="timelineDot"></div>
+            <div class="timelineDate">Oct 2006 to Present</div>
+            <div class="timelineWork">Art Direction, Graphic Design, Web Development<small>Independent / Freelance</small></div>
+          </li>
 
-    <img class=" coming" src="assets/images/state.svg">
-        <div class="fot " >
+          <li>
+            <div class="timelineDot"></div>
+            <div class="timelineDate">Jun 2015 to Jan 2017</div>
+            <div class="timelineWork">On-site Network Support Enginner<small>OmniPrime Marketing, inc.</small></div>
+          </li>
+          <li>
+            <div class="timelineDot"></div>
+            <div class="timelineDate">Jan 2014 to May 2015</div>
+            <div class="timelineWork">IT Support / Web Designer & Developer<small>IT.Resources Corporation (ITRC)</small></div>
+          </li>
+          <li>
+            <div class="timelineDot"></div>
+            <div class="timelineDate">Nov 2012 to Oct 2014</div>
+            <div class="timelineWork">OJT Graphic Artist / IT Support<small>Lima Gulf Industrial Trading</small></div>
+          </li>
+          <li>
+            <div class="timelineDot"></div>
+            <div class="timelineDate">Oct 2006 to Present</div>
+            <div class="timelineWork">Art Direction, Graphic Design, Web Development<small>Independent / Freelance</small></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <!-- <footer> -->
+        <!-- <div class="fot " >
             <div class="follow">
                 <p>Follow us on social</p>
                 <p>media!</p>
@@ -279,7 +283,7 @@
             <p>Copyright<i class="far fa-copyright"></i> Eduthon 2020. All rights reserved.</p>
         </div>
 
-    </footer>
+    </footer> -->
     <div class="navigation" style="z-index: 10000;">
         <ul>
             <li class="navi"><a href="index.html#info"><img src="./assets/images/infoicon.svg"></a></li>
