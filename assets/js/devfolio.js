@@ -1,4 +1,4 @@
-if(window.innerWidth>= 400)
+if(window.innerWidth>= 700)
 { document.addEventListener('DOMContentLoaded', function () {
     let devfolioOptions = {
         buttonSelector: '#devfolio-apply-now',
