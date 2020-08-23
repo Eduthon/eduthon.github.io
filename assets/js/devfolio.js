@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     script.onerror = function () {
         document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-            // window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-            window.open('https://devfolio.co/external-apply/eduthon');
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
         });
     }
-});
+}); 
