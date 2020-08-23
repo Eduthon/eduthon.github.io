@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
+if(window.innerWidth>='500px')
+{ document.addEventListener('DOMContentLoaded', function () {
     let devfolioOptions = {
         buttonSelector: '#devfolio-apply-now',
         key: 'eduthon',
@@ -18,3 +19,13 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 }); 
+}
+else{
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'eduthon',
+    }
+    document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+        window.location.href = 'https://devfolio.co/external-apply/' +  devfolioOptions.key;
+    });
+}
