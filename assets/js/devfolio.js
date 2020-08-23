@@ -1,4 +1,4 @@
-if(window.innerWidth>='500px')
+if(window.innerWidth>= 500)
 { document.addEventListener('DOMContentLoaded', function () {
     let devfolioOptions = {
         buttonSelector: '#devfolio-apply-now',
@@ -26,6 +26,8 @@ else{
         key: 'eduthon',
     }
     document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-        window.location.href = 'https://devfolio.co/external-apply/' +  devfolioOptions.key;
+        // window.location.href = 'https://devfolio.co/external-apply/' +  devfolioOptions.key;
+        window.open( 
+            'https://devfolio.co/external-apply/' +  devfolioOptions.key, "_blank");
     });
 }
