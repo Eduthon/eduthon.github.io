@@ -247,7 +247,7 @@
 
 
 
-    .timelined{
+.timelined{
     display: flex !important;
 }
 .timelinepc{
@@ -256,9 +256,9 @@
 .navigation{
     visibility: visible !important;
 }
-*{
+/* *{
     overflow-x: hidden;
-}
+} */
 .coming{
     margin-top: 45%;
     margin-bottom:40% ;
