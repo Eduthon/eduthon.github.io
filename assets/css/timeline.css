@@ -1,33 +1,7 @@
-/* * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} */
 
-/* html {
-	box-sizing: inherit;
-	font-family: Lato, sans-serif;
-	font-size: 62.5%;
-	line-height: 1.5;
-}
-
-body {
-	font-family: inherit;
-	font-size: 1.6rem;
-	font-weight: normal;
-	line-height: inherit;
-	background: #efefef;
-} */
-
-/* .wrapper {
-	width: 100%;
-	max-width: 1140px;
-	margin: 0 auto;
-} */
-
+@media only screen and (max-width: 700px) {
 .timelineBox {
-    /* max-width: 400px; */
-    width:350px;
+    width:350px !important;
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
@@ -173,25 +147,10 @@ body {
 .timelineBody::-webkit-scrollbar-thumb {
 	background-color: #1593e7;
 }
-
-
-
-.ajay a {
-	text-decoration: none;
-	color: #333;
-}
-
-.ajay a:hover {
-	text-decoration: underline;
-	color: #000;
-}
-
 .timelined{
     height: 100vh;
-    /* display: flex; */
     align-items: center;
     display: flex;
-    /* flex-direction: row;  */
     justify-content: center;
     display: none;
 }
@@ -205,23 +164,23 @@ body {
     border-bottom-right-radius: 10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    height:100px;
+    height:100px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100px;
+    width:100px !important;
     background-color: #e6e6e6;
 }
-.timedimage{
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
+.timedimage img{
+    border-radius: 50% !important;
+    width: 45px !important;
+    height: 45px !important;
 }
 .timedname{
     font-family: 'Montserrat';
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 600;	
     text-align: center;
 }
 .timedcard2{
@@ -230,8 +189,8 @@ body {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #e6e6e6;
-    width:240px;
-    height:100px;
+    width:240px !important;
+    height:100px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,4 +207,5 @@ body {
     font-family: 'Montserrat';
     margin:15px 0;
     font-weight: 600;
+}
 }

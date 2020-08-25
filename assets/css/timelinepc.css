@@ -214,6 +214,11 @@ text-align: center;
     background-color: #e6e6e6;
 }
 .timedimage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.timedimage img{
     border-radius: 50%;
     width: 60px;
     height: 60px;

@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Open Sans', sans-serif;
     background-color: #0C0B0C;  
     -webkit-box-sizing: content-box;
@@ -8,7 +8,7 @@ body {
     box-sizing: content-box;
     padding: 0;
     margin: 0;
-}
+} */
 
 .pCard_card {
     width: 300px;

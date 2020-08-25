@@ -1,11 +1,10 @@
 @media only screen and (max-width: 700px) {
     .edupar{
         margin-top: 20px !important;
-    }
+     }
     .timelineBox {
-        /* max-width: 400px; */
-        width:350px;
         height: auto;
+        width:360px !important;
         overflow: hidden;
         margin: 0 auto;
         background: #fff;
@@ -115,7 +114,7 @@
         left: 3px;
         height: 9px;
         width: 9px;
-        background: ##3c3e41;
+        background: #3c3e41;
         border-radius: 50%;
     }
     
@@ -153,10 +152,10 @@
     
     .timelined{
         height: 100vh;
-        /* display: flex; */
+       
         align-items: center;
         display: flex;
-        /* flex-direction: row;  */
+
         justify-content: center;
         display: none;
     }
@@ -166,20 +165,25 @@
     
     }
     .timedcard1{
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        height:100px;
+        border-top-right-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+        height:100px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width:100px;
+        width:70px !important;
         background-color: #e6e6e6;
     }
     .timedimage{
-        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .timedimage img{
+        border-radius: 50% !important;
         width: 45px !important;
         height: 45px !important;
     }
@@ -190,13 +194,13 @@
         text-align: center;
     }
     .timedcard2{
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
         background-color: #e6e6e6;
-        width:240px;
-        height:100px;
+        width:220px !important;
+        height:100px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -214,7 +218,7 @@
         font-family: 'Montserrat';
         margin:15px 0;
         font-weight: 600;
-    }
+    } 
 
 
 
