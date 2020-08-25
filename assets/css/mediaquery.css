@@ -204,8 +204,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center !important;
-        padding:0 0 !important;
+        /* align-items: center !important; */
+        padding:15px 15px !important;
     }
     .timedate{
         font-size: 1.3rem !important;
@@ -214,9 +214,9 @@
         color: #383838;
     }
     .timedtopic{
-        font-size: 2.5rem !important;
+        font-size: 1.4rem !important;
         font-family: 'Montserrat';
-        margin:15px 0;
+        margin:10px 0 !important;
         font-weight: 600;
     } 
 
