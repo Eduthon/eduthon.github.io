@@ -1,0 +1,38 @@
+@keyframes discord {
+	0% {height:60px; width:300px;}
+	 100% {height:400px;width:300px;}
+}
+@keyframes discord-c {
+	0% {height:400px;width:300px;}
+    100% {height:60px; width:300px;}
+}
+.dd{
+  position:fixed;
+  bottom:0px;
+  z-index:1000000;
+  right:0px;
+}
+.discord {
+	animation-name: discord-c;
+	animation-duration: 1s;
+	animation-play-state: pause;
+    height:60px;
+    border-radius: 1%;
+	width:300px;
+
+}
+.discord:hover {
+	height:400px;
+    width:300px;
+    border-radius: 1%;
+	animation-name: discord;
+	animation-duration: 1s;
+	animation-play-state: pause;
+}
+
+@media only screen and (max-width: 700px) {
+    .dd{
+        display: none !important;
+    }
+}
+	
