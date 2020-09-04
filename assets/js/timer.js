@@ -8,12 +8,12 @@ var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((t % (1000 * 60)) / 1000); 
 // document.getElementById("hour1").innerHTML = days + "d "  
 // + hours + "h " + minutes + "m " + seconds + "s "; 
-document.getElementById("hour1").innerHTML= Math.floor(hours/10);
-document.getElementById("hour2").innerHTML= hours%10;
-document.getElementById("min1").innerHTML= Math.floor(minutes/10);
-document.getElementById("min2").innerHTML= minutes%10;
-document.getElementById("day1").innerHTML= Math.floor(days/10);
-document.getElementById("day2").innerHTML= days%10;
+document.getElementById("hour1").innerHTML= Math.floor(minutes/10);
+document.getElementById("hour2").innerHTML= minutes%10;
+document.getElementById("min1").innerHTML= Math.floor(seconds/10);
+document.getElementById("min2").innerHTML= seconds%10;
+document.getElementById("day1").innerHTML= Math.floor(hours/10);
+document.getElementById("day2").innerHTML= hours%10;
     if (t < 0) { 
         clearInterval(x); 
         document.getElementById("hour1").innerHTML=0;
